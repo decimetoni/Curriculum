@@ -1,0 +1,204 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+color: black;
+}
+a:visited{
+color: black;
+}
+a:hover{
+color: #0064b4;
+font-weight: bold;
+}
+
+html{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+body {
+    color: #000;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+}
+h1 {
+    text-align: top;    
+    font-size: 2.5em;
+}
+h2 {
+    text-align: top;
+    font-size: 1.5em;
+    color: #555;
+}
+h3
+{
+    padding: 0 0 1% 0;
+    margin: 0%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+h4{
+    padding: 0 0 1% 0;
+    margin: 0%;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+.fondo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content: space-between; 
+    background-image: url("Recursos/imgs/playa.jpg");
+    background-position: right 75%;
+    height: 70%;
+    width: 100%;
+    vertical-align: baseline;
+}
+.header{   
+    background-color: white;
+    width: 90%;
+    max-height: 500px;
+    max-width: 1000;
+    border: 1px solid #c2c2c2;
+    margin: 2% auto;    
+    box-shadow: 3px 3px 5px #999;
+    
+}
+.der{
+    padding: 0.7em;
+    border-radius: 20px;
+    background-color: #006cc4b9;
+    align-items: flex-end;   
+}
+ul li{
+   list-style: none;
+}
+.header img{
+    border-radius: 50%;
+    border: 6px solid #0064b4;
+}
+.izq{
+    padding: 2em;
+}
+.der{
+    font-size: 1.2em;
+    margin-top: auto;
+    margin-bottom: 0px;
+}      
+section{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: white;
+    max-width: 1000;
+    border: 1px solid #c2c2c2;
+    box-shadow: 3px 3px 5px #999; 
+}
+section h2{
+    padding: 0.7em;
+}
+.presentacion{
+    padding: 3%;
+    font-size: 1.1em;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+}
+
+.habilidades{
+    background-color: #f3f6f8;
+    display:flex;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+.habilidades div{
+    padding: 2%;
+    justify-content: space-around;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: stretch;
+    justify-content: space-between; 
+    height: 70%;
+    width: 100%;
+    vertical-align: baseline;
+
+}
+progress{
+    background-color: #ccc;
+    height: 10px;
+    width: 10vw;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+.hab{
+    width: 40%;
+    text-align: right;
+    background-color:  white;
+    border: 1px solid #ccc;
+}
+.horizontal img{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    border-radius: 10px;
+}
+.experiencia{
+    width: 90%;
+   }
+.horizontal{
+    display: inline-block;   
+    width: 100%;
+    padding: 2em;
+    border-bottom: 1px solid #000;
+}
+.img {
+    height: 15%;
+    width: 15%;
+    float:left;
+}
+.img img{
+    width: 70%;
+    height: 70%;
+    border-radius: 7px;
+}
+.con {
+    display: inline-block;
+    width: 75%;
+}
+.con p{
+    padding: 1% 1% 0 0;
+}
+footer{
+    width: 90%;
+}
+.presentacion img{
+width: 100px;
+}
+.menu{
+    padding: 3%;
+    font-size: 1.1em;
+}
+.menu ul li{
+border-bottom: 1px solid #0063b4;
+}
+.porf li {
+    display: inline;
+    }
